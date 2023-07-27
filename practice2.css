@@ -1,0 +1,36 @@
+.images{
+    width: 400px;
+    height: 400px;
+}
+.container{
+    display: flex;
+    border: 2px solid black;
+    margin: 2px;
+    padding: 2px;
+    background-color: beige;
+}
+#boxleft{
+
+    margin: 2px;
+    padding: 2px;
+    
+    background-color: crimson;
+
+    display: flex;
+    flex-direction: column;
+    
+
+}
+#boxright{
+    
+    margin: 2px;
+    padding: 2px;
+    
+    background-color: greenyellow;
+
+}
+@media (max-width: 640px){
+    .container{
+    flex-direction: column;
+    }
+}
